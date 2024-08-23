@@ -38,57 +38,57 @@ Follow these steps to get the project up and running on your local machine.
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/your-username/react-django-tutorial.git
 cd crud-python-react
-\`\`\`
+```
 
 ### 2. Backend Setup (Django)
 
 - Create a virtual environment and activate it:
 
-  \`\`\`bash
+  ```bash
   python -m venv venv
-  source venv/bin/activate  # On Windows use \`venv\\Scripts\\activate\`
-  \`\`\`
+  source venv/bin/activate  # On Windows use `venvScriptsactivate`
+  ```
 
 - Install the necessary Python dependencies:
 
-  \`\`\`bash
+  ```bash
   pip install -r requirements.txt
-  \`\`\`
+  ```
 
 - Run migrations and start the Django development server:
 
-  \`\`\`bash
+  ```bash
   python manage.py migrate
   python manage.py runserver
-  \`\`\`
-
+  ```
+  
 ### 3. Frontend Setup (React)
 
 - Navigate to the frontend directory:
 
-  \`\`\`bash
+  ```bash
   cd client/react-frontend
-  \`\`\`
+  ```
 
 - Install the necessary Node.js dependencies:
 
-  \`\`\`bash
+  ```bash
   npm install
-  \`\`\`
+  ```
 
 - Start the React development server:
 
-  \`\`\`bash
+  ```bash
   npm run dev
-  \`\`\`
+  ```
 
 ### 4. Access the Application
 
-- Open your browser and go to \`http://localhost:5173\` to view the React frontend.
-- The Django backend will be running at \`http://127.0.0.1:8000\`.
+- Open your browser and go to `http://localhost:5173` to view the React frontend.
+- The Django backend will be running at `http://127.0.0.1:8000`.
 
 ## 🧪 Testing the Application
 
