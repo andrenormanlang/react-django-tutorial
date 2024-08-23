@@ -1,7 +1,7 @@
 # 📚 CRUD Python + React Project
 
- This repository demonstrates how to build a full-stack application that integrates **React** on the frontend with a **Python Django** backend. The app showcases a basic CRUD (Create, Read, Update, Delete) functionality applied to a collection of books, making it a great example of how these powerful technologies can work together.
-
+ This repository demonstrates how to build a full-stack application that integrates **React** on the frontend with a **Python Django** backend. The app showcases a basic CRUD (Create, Read, Update, Delete) functionality applied to a collection of books.
+ 
 ## 🚀 Project Overview
 
 This project is designed to help you understand how to connect a **React** frontend with a **Django** + **Python** backend API using **RESTful principles**. The application allows users to:
@@ -11,26 +11,25 @@ This project is designed to help you understand how to connect a **React** front
 - **Update** the title of existing books.
 - **Delete** books from the list.
 
-The frontend is styled using **Tailwind CSS** and **SCSS**, providing a modern and responsive user interface.
+The frontend is styled with **Tailwind CSS** and **SCSS**.
 
 ## 🛠️ Technologies Used
 
 - **Frontend:**
-  - 🟦 React: A JavaScript library for building user interfaces.
-  - 🎨 Tailwind CSS: A utility-first CSS framework for rapid UI development.
-  - 💅 SCSS: A CSS preprocessor for writing cleaner and more maintainable CSS.
+  - 🟦 React
+  - 🎨 Tailwind CSS
+  - 💅 SCSS
 
 - **Backend:**
-  - 🐍 Python: A powerful programming language that's easy to learn and fun to use.
-  - 🦄 Django: A high-level Python web framework that encourages rapid development.
+  - 🐍 Python
+  - 🦄 Django: A high-level Python web framework.
   - 🌐 Django REST Framework: A toolkit for building Web APIs in Django.
 
 ## 🎯 Key Features
 
 - **API Integration:** The React frontend interacts with the Django backend via a REST API, showcasing how to handle basic asynchronous operations and state management in React.
-- **CRUD Operations:**
-- **Styling:** The app combines the power of Tailwind CSS with custom SCSS styles.
-- **Responsive Design:**
+- **CRUD Operations:** Python with the use of Django rest framework
+- **Styling:** Tailwind using SCSS for iterating and variating book title colors.
 
 ## ⚙️ Setup and Installation
 
@@ -88,7 +87,7 @@ cd crud-python-react
 ### 4. Access the Application
 
 - Open your browser and go to `http://localhost:5173` to view the React frontend.
-- The Django backend will be running at `http://127.0.0.1:8000`.
+- The api created in Django should ne be running at `http://127.0.0.1:8000/api/books/` after the runserver command.
 
 ## 🧪 Testing the Application
 
